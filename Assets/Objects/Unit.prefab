@@ -238,6 +238,7 @@ MonoBehaviour:
   grounded:
     serializedVersion: 2
     m_Bits: 4294967295
+  Patrol: 0
   unitDistanceFormation: 2.5
   unitNumberInRow: 3
 --- !u!195 &5132218327969708784
@@ -273,7 +274,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
